@@ -72,5 +72,23 @@ width: 40%;
 vertical-align: middle;
 display: inline-block;
 }
-/* 1. Создать заголовок и написать Zoo
-2. Найти и скачать картинки трех стран */
+.country{
+    background-image: url("7433.webp");
+    background-size: cover;
+    display: inline-block;
+    width: 23%;
+    background-position: center;
+}
+.country:nth-of-type(2){
+    background-image: url("lr-flag.webp");
+}
+.country:nth-of-type(3){
+    background-image: url("Flag_of_Poland.svg.png");
+
+}
+.country:nth-of-type(4){
+    background-image: url("main-qimg-f7d34622555752e5faca8592199bd651-pjlq.jpeg");
+}
+/* 1. Задать скругление для стран
+2. Задать тень для стран
+3. Задать марджин для стран */
