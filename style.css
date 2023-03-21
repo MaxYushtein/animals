@@ -18,9 +18,9 @@ box-shadow: 0 0 10px blue;
 body{
 background-image: url("messiBG.jpg");
 text-align: center;
-
+background-size: cover;
 }
-p{
+  .banner p{
     color: blue;
     background-color: rgba(255, 255, 255, 0.561);
     width: 60%;
@@ -47,22 +47,30 @@ a:hover{
     background-image:url("zoo.avif");
     background-color: yellowgreen;
     margin-bottom: 100px;
+    background-size: cover;
+    background-position: center;
 }
 .lion{
 width: 400px;
 border-radius: 20px;
 box-shadow: 0 0 35px rgba(255, 217, 0, 0.36);
-margin-bottom: 500px;
-margin-top: 1000px;
+vertical-align: middle;
 }
 .zagolovok{
-    color: white
+    color: white;
+margin-bottom: 30px;
 }
-/* 1. Для Льва задать ширину
-2. Задать тень
-3. Задать скругление уголков */
-
-
-
-
-
+.banner a{
+background-color:rgba(0, 255, 255, 0.655);
+margin-bottom: 310px;
+}
+.banner h1{
+margin-top: 810px;
+}
+.info{
+width: 40%;
+vertical-align: middle;
+display: inline-block;
+}
+/* 1. Создать заголовок и написать Zoo
+2. Найти и скачать картинки трех стран */
