@@ -12,19 +12,21 @@ padding-right: 20px;
 margin-top: 20px;
 margin-bottom: 20px;
 box-shadow: 0 0 10px blue;
-
-
 }
 body{
 background-image: url("messiBG.jpg");
 text-align: center;
 background-size: cover;
+font-family: 'Poppins', sans-serif;
 }
   .banner p{
     color: blue;
     background-color: rgba(255, 255, 255, 0.561);
     width: 60%;
     margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 0px 10px 10px 0px;
+    border: 10px;
 }
 .menu{
     background-color: rgba(255, 255, 255, 0.401);
@@ -37,11 +39,10 @@ a{
     border-radius: 30px;
     padding: 0 20px;
     display: inline-block;
-    transition: 0.5s
-
+    transition: 0.5s;
 }
 a:hover{
-    background-color: white;
+    background-color: white !important;
 }
 .banner{
     background-image:url("zoo.avif");
@@ -78,6 +79,11 @@ display: inline-block;
     display: inline-block;
     width: 23%;
     background-position: center;
+    margin: 34px;
+    line-height: 49px;
+    border-radius: 23px;
+    box-shadow: 0 0 43px red;
+
 }
 .country:nth-of-type(2){
     background-image: url("lr-flag.webp");
@@ -89,6 +95,77 @@ display: inline-block;
 .country:nth-of-type(4){
     background-image: url("main-qimg-f7d34622555752e5faca8592199bd651-pjlq.jpeg");
 }
-/* 1. Задать скругление для стран
-2. Задать тень для стран
-3. Задать марджин для стран */
+.country h3{
+color: white;
+font-size: 30px;
+-webkit-text-stroke: 1px blue;
+text-shadow: 0 0 10px black;
+
+}
+.country ul{
+    background-color: rgba(0, 0, 255, 0.545);
+    color: white;
+    list-style: none;
+}
+.country a{
+    background-color: red;
+    border: 1px solid blueviolet;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.zoo h6{
+    color: white; 
+    font-size: 23px;
+}
+.person{
+    border-radius: 23px;
+    width: 25%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.204);
+    display: inline-block;
+    margin: 24px;
+    padding: 25px;
+    color: white;
+}
+.person img{
+    width: 200px;
+height: 200px;
+object-fit: cover;
+border-radius: 210px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.213);
+margin-bottom: 25px;
+}
+.person h5{
+    margin-bottom: 25px;
+}
+.person p{
+    margin-bottom: 25px;
+}
+input{
+    display: block;
+margin: auto;
+width: 400px;
+height: 40px;
+margin-bottom: 6px;
+border-radius: 6px;
+border: none;
+box-shadow: 0 0 15px snow ;
+}
+textarea{
+    width: 400px;
+    margin-bottom: 6px;
+border-radius: 6px;
+box-shadow: 0 0 15px snow;
+border: none;
+}
+button{
+    display: block;
+    margin: auto;
+    margin-bottom: 123px;
+    border-radius: 6px;
+    border: none;
+box-shadow: 0 0 15px snow;
+line-height: 40px;
+}
+#lastP{
+margin-bottom: 20px;
+}
