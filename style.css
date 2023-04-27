@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 h1{
     color: blue;
     background-color: white;
@@ -69,7 +72,7 @@ margin-bottom: 310px;
 margin-top: 810px;
 }
 .info{
-width: 40%;
+width: 100%%;
 vertical-align: middle;
 display: inline-block;
 }
@@ -149,6 +152,7 @@ margin-bottom: 6px;
 border-radius: 6px;
 border: none;
 box-shadow: 0 0 15px snow ;
+ font-family: 'Poppins', sans-serif;
 }
 textarea{
     width: 400px;
@@ -156,6 +160,7 @@ textarea{
 border-radius: 6px;
 box-shadow: 0 0 15px snow;
 border: none;
+ font-family: 'Poppins', sans-serif;
 }
 button{
     display: block;
@@ -165,7 +170,17 @@ button{
     border: none;
 box-shadow: 0 0 15px snow;
 line-height: 40px;
+ font-family: 'Poppins', sans-serif;
 }
 #lastP{
 margin-bottom: 20px;
+}
+@media (max-width:600px){
+    .banner h1{
+        margin-top: 75px;
+    }
+.banner p{
+    box-sizing: border-box;
+    width: 100%;
+}
 }
