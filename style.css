@@ -72,7 +72,7 @@ margin-bottom: 310px;
 margin-top: 810px;
 }
 .info{
-width: 100%%;
+width: 100%;
 vertical-align: middle;
 display: inline-block;
 }
@@ -128,6 +128,7 @@ text-shadow: 0 0 10px black;
     margin: 24px;
     padding: 25px;
     color: white;
+    box-sizing: border-box;
 }
 .person img{
     width: 200px;
@@ -146,7 +147,8 @@ margin-bottom: 25px;
 input{
     display: block;
 margin: auto;
-width: 400px;
+width: 95%;
+max-width: 400px;
 height: 40px;
 margin-bottom: 6px;
 border-radius: 6px;
@@ -155,12 +157,14 @@ box-shadow: 0 0 15px snow ;
  font-family: 'Poppins', sans-serif;
 }
 textarea{
-    width: 400px;
+ max-width: 400px; 
+ width: 95%;
     margin-bottom: 6px;
 border-radius: 6px;
 box-shadow: 0 0 15px snow;
 border: none;
  font-family: 'Poppins', sans-serif;
+
 }
 button{
     display: block;
@@ -182,5 +186,24 @@ margin-bottom: 20px;
 .banner p{
     box-sizing: border-box;
     width: 100%;
+}
+.info{
+  width:100% ;
+
+}
+.lion{
+    width: 100%;
+}
+.country{
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.person{
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 0px; 
 }
 }
